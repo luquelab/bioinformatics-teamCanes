@@ -1,7 +1,9 @@
 # bioinformatics-teamCanes
-This is the group project for the Bioinformatics Tools course (BIL 652/552) for team Canes
+---
 # Description
+This GitHub repository was created as part of the team "Canes" group project for the Bioinformatics Tools course (BIL 652/552) at the University of Miami.
 
+The repository includes bioinformatics pipeline (available as a Colab notebook here) that provides functional and comparative genomic analysis of unknown sequences. Pipeline documentation (link) includes Tutorial (link) on how to use the pipeline with the example data (here). 
 # Installation
 
 # Documentation
@@ -9,3 +11,9 @@ This is the group project for the Bioinformatics Tools course (BIL 652/552) for 
 # Usage Examples
 
 # Folders' Description
+
+
+# Authors Contribution
+Anna Golikova (GitHub: anna-golikova)
+Harrison Trethowan (GitHub: HJTrethowan)
+Mohammad Washeem: (GitHub: mowasheem1)

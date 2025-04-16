@@ -1,5 +1,6 @@
 ---
 layout: default
-title: Installation
+title: Documentation
 nav_order: 6
 ---
+## Documentation

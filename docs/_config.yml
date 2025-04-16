@@ -1,2 +1,6 @@
 title: TeamCanes Bioinformatics Toolkit
-theme: minima
+description: Sequence analysis and functional prediction pipeline.
+remote_theme: just-the-docs/just-the-docs
+color_scheme: light
+search_enabled: true
+nav_sort: case_insensitive

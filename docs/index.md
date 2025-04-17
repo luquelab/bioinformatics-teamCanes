@@ -15,8 +15,8 @@ The repository includes the bioinformatics pipeline (available as a [Colab noteb
 
 ## Folders' Description
 
-/Documentation: This folder contains detailed documentation of the project and its bioinformatics pipeline.  
-/Tutorial: This folder contains example of the pipeline usage on the dataset obtained from [NCBI](https://www.ncbi.nlm.nih.gov/).  
+**/Documentation**: This folder contains detailed documentation of the project and its bioinformatics pipeline.  
+**/Tutorial**: This folder contains example of the pipeline usage on the [dataset](https://github.com/luquelab/bioinformatics-teamCanes/tree/main/examples/sequences.fasta) obtained from [NCBI](https://www.ncbi.nlm.nih.gov/).  
 
 
 ## Authors Contribution

@@ -26,6 +26,15 @@ jobs:
         with:
           source: docs
 
+      - name: Check for symlinks or hard links in _site
+        run: |
+          echo "Symlinks in _site:"
+          find _site -type l || echo "No symlinks found"
+    
+          echo ""
+          echo "Potential hard links in _site (more than 1 link count):"
+          find _site -type f -exec ls -l {} + | awk '$2 > 1'
+
       - name: Upload Pages artifact
         uses: actions/upload-artifact@v4
         with:

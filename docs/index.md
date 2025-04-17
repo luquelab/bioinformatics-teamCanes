@@ -18,8 +18,11 @@ The repository includes the entire bioinformatics pipeline (available as a [Cola
 **/Documentation**: This folder contains detailed documentation of the project and its bioinformatics pipeline.  
 **/Tutorial**: This folder contains example of the pipeline usage on the [dataset](https://github.com/luquelab/bioinformatics-teamCanes/tree/main/examples/sequences.fasta) obtained from [NCBI](https://www.ncbi.nlm.nih.gov/).  
 
+---
 
 ## Authors Contribution
 Anna Golikova ([GitHub](https://github.com/anna-golikova))  
 Harrison Trethowan ([GitHub](https://github.com/HJTrethowan))  
 Mohammad Washeem ([GitHub](https://github.com/mowasheem1))  
+
+---

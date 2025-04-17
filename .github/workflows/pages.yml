@@ -29,6 +29,10 @@ jobs:
         uses: actions/jekyll-build-pages@v1
         with:
           source: docs
+      - name: Debug site output
+        run: |
+         echo "Listing contents of _site"
+         ls -R _site
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

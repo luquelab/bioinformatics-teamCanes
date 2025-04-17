@@ -13,8 +13,10 @@ The pipeline integrates several stages of analysis — from calculating basic se
 All outputs are organized into clearly defined folders, making it easier to track each stage of the analysis. Whether you're a student learning the basics of sequence analysis or a researcher conducting high-throughput comparisons, this pipeline offers a robust and modular foundation to support a wide range of genomic investigations.   
 
 ## Pipeline overview
+
 **Directory Structure Setup**
 
+---
 This code block sets up the structure of the output directories each containing the results from a specific analysis/part of the pipeline. The default name of the root directory is **project_x_analysis** and can be modified by the user.
 ---
 **Part 1**: Sequence Analysis Pipeline  

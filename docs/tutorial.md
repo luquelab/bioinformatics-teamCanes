@@ -28,5 +28,5 @@ shutil.make_archive(folder_path, 'zip', folder_path)
 from google.colab import files
 files.download(folder_path + ".zip")
 
-``` </pre>   
+``` </pre>
 7. Compare your results with the output provided in [examples/output](https://github.com/luquelab/bioinformatics-teamCanes/tree/main/examples/output) folder.   

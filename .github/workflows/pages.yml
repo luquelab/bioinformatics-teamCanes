@@ -27,18 +27,18 @@ jobs:
         run: bundle install
         working-directory: docs
 
-      - name: Build site into temp directory
+      - name: Build site into absolute temp dir
         run: |
-          mkdir -p ../site-output
-          bundle exec jekyll build --destination ../site-output
-          # Remove symlinks that might break deployment
-          find ../site-output -type l -exec rm -f {} +
+          export SITE_OUTPUT="${GITHUB_WORKSPACE}/site-output"
+          mkdir -p "$SITE_OUTPUT"
+          bundle exec jekyll build --destination "$SITE_OUTPUT"
+          find "$SITE_OUTPUT" -type l -exec rm -f {} +
         working-directory: docs
 
       - name: Copy output to clean artifact directory
         run: |
           mkdir artifact
-          cp -r ../site-output/* artifact/
+          cp -r site-output/* artifact/
         shell: bash
 
       - name: Upload artifact for GitHub Pages

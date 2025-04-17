@@ -4,9 +4,21 @@ title: Home
 nav_order: 1
 ---
 
-# Welcome to the TeamCanes Bioinformatics
-This pipeline was created as part of our group project for the Bioinformatics Tools course and reflects our goal of building a user-friendly, reproducible, and comprehensive framework for nucleotide sequence analysis. Designed to run entirely in Google Colab, the pipeline enables researchers and students to upload and analyze DNA sequences without requiring complex local installations.
+# bioinformatics-teamCanes
 
-The workflow integrates several stages of analysis—from calculating basic sequence properties such as length and GC content, to advanced tasks like pairwise alignments, phylogenetic tree construction, and functional prediction using online tools such as NCBI BLASTx and EMBL-EBI HMMER (Pfam). It also includes data visualization outputs like bar plots and heatmaps, helping users to intuitively interpret sequence similarities and evolutionary patterns.
+## Description
 
-All outputs are organized into clearly defined folders, making it easier to track each stage of the analysis. Whether you're a student learning the basics of sequence analysis or a researcher conducting high-throughput comparisons, this pipeline offers a robust and modular foundation to support a wide range of genomic investigations.
+This GitHub pages is overview of the [GitHub repository](https://github.com/luquelab/bioinformatics-teamCanes) created as part of the team "Canes" group project for the Bioinformatics Tools course (BIL 652/552) at the University of Miami.
+
+The repository includes the bioinformatics pipeline (available as a [Colab notebook](https://colab.research.google.com/github/luquelab/bioinformatics-teamCanes/blob/main/notebooks/main_pipeline.ipynb)) that provides a user-friendly, reproducible, and comprehensive framework for functional and comparative genomic analysis of unknown sequences. Designed to run entirely in Google Colab, the pipeline enables researchers and students to upload and analyze DNA sequences without requiring complex local installations.
+
+## Folders' Description
+
+/Documentation: This folder contains detailed documentation of the project and its bioinformatics pipeline.
+/Tutorial: This folder contains example of the pipeline usage on the dataset obtained from [NCBI](https://www.ncbi.nlm.nih.gov/).
+
+
+## Authors Contribution
+Anna Golikova ([GitHub](https://github.com/anna-golikova))  
+Harrison Trethowan ([GitHub](https://github.com/HJTrethowan))  
+Mohammad Washeem ([GitHub](https://github.com/mowasheem1))  

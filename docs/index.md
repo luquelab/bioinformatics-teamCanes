@@ -12,10 +12,11 @@ This GitHub pages is an overview of the [GitHub repository](https://github.com/l
 
 The repository includes the bioinformatics pipeline (available as a [Colab notebook](https://colab.research.google.com/github/luquelab/bioinformatics-teamCanes/blob/main/notebooks/main_pipeline.ipynb)) that provides a user-friendly, reproducible, and comprehensive framework for functional and comparative genomic analysis of unknown sequences. Designed to run entirely in Google Colab, the pipeline enables researchers and students to upload and analyze DNA sequences without requiring complex local installations.
 
+
 ## Folders' Description
 
-/Documentation: This folder contains detailed documentation of the project and its bioinformatics pipeline. 
-/Tutorial: This folder contains example of the pipeline usage on the dataset obtained from [NCBI](https://www.ncbi.nlm.nih.gov/).
+/Documentation: This folder contains detailed documentation of the project and its bioinformatics pipeline.  
+/Tutorial: This folder contains example of the pipeline usage on the dataset obtained from [NCBI](https://www.ncbi.nlm.nih.gov/).  
 
 
 ## Authors Contribution

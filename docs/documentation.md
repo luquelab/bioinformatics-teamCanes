@@ -12,17 +12,16 @@ The pipeline integrates several stages of analysis — from calculating basic se
 
 All outputs are organized into clearly defined folders, making it easier to track each stage of the analysis. Whether you're a student learning the basics of sequence analysis or a researcher conducting high-throughput comparisons, this pipeline offers a robust and modular foundation to support a wide range of genomic investigations.   
 
-## Pipeline overview
+## Pipeline overview  
 --
-**Directory Structure Setup**
+### Directory Structure Setup
 This code block sets up the structure of the output directories each containing the results from a specific analysis/part of the pipeline. The default name of the root directory is **project_x_analysis** and can be modified by the user.
 
--
-**Part 1**: Sequence Analysis Pipeline  
+### Part 1: Sequence Analysis Pipeline  
     **Step 1**: Upload and Store Sequences File  
     **Step 2**: Load Sequences and Compute Basic Properties  
         Visualizing Sequence Properties  
     **Step 3**: Pairwise Alignments & Similarity Calculations  
     **Step 4**: Full Similarity Matrices and Heatmaps  
     **Step 5**: Build Phylogenetic Trees  
-**Part 2**: Functional & Organism Prediction Pipeline   
+### Part 2: Functional & Organism Prediction Pipeline   

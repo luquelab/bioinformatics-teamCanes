@@ -1,4 +1,10 @@
 source "https://rubygems.org"
+
 gem "jekyll", "~> 4.3"
 gem "jekyll-remote-theme"
-# gem "just-the-docs"  (if using the gem instead of remote_theme)
+
+# Required plugins for just-the-docs
+gem "jekyll-seo-tag"
+gem "jekyll-sitemap"
+gem "jekyll-feed"
+gem "jekyll-include-cache"

@@ -22,7 +22,7 @@ The first code block installs Biopython and imports necessary libraries and modu
 
 This code block sets up the structure of the output directories each containing the results from a specific analysis/part of the pipeline. The default name of the root directory is **project_x_analysis** and can be modified by the user.  
 
--- 
+---
 
 ## Part 1: Sequence Analysis Pipeline    
 This portion of the pipeline performs analyses on sequences of interest provided by the user. The analyses include calculation and visualization of some of the sequence properties such as sequence length and GC content, sequence alignments and similarities, as well as construction of phylogenetic trees.  
